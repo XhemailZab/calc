@@ -6,12 +6,10 @@ include 'includes/header.inc.php';
 
 
 
-<h1>
-    C      A    L     C    U   L  A TOR
-</h1>
-
-<form action = "includes/calc.inc.php" method = "post">
-    <input type = "number" name = "num1" placeholder = "First number">
+<form action = "includes/calc.inc.php" method = "post" class="form">
+<div class="form__row">
+    <h1>Your amazing Calculator</h1>
+<input type="number" name = "num1" placeholder = "First number">
     <select name = "op">
         <option value = "add"> + </option>
         <option value = "sub"> - </option>
@@ -20,6 +18,8 @@ include 'includes/header.inc.php';
     </select>
     <input type = "number" name = "num2" placeholder = "Second Number">
     <button type = "submit" name = "submit"> Calculate </button>
+</div>
+    
 </form>
 
 

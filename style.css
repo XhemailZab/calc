@@ -13,6 +13,30 @@ h1{
     animation-iteration-count:infinite;
 }
 
+.form {
+    background: #fff;
+    margin: auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    height: 400px;
+    align-items: center;
+    box-shadow: 5px 5px 16px 0px rgb(0 0 0 / 33%);
+}
+
+.form input, .form select {
+    padding: 15px 10px;
+}
+
+.form button {
+    display: block;
+    padding: 15px;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    background: #fffabd;
+}
+
 @keyframes textColor{
     from {background-color: palegreen;}
     to {background-color: lightpink;}
