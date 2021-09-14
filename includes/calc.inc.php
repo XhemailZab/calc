@@ -1,6 +1,7 @@
 <?php
 declare(strict_types = 1);
 include 'autoloader.inc.php';
+include 'header.inc.php';
 
 $op = $_POST["op"];
 $num1 = $_POST["num1"];
@@ -18,3 +19,8 @@ catch(TypeError $e)
         echo "Error!: " . $e->getMessage();
     }
 }
+?>
+<button onclick="goBack()">Go Back</button>
+<?php
+include 'footer.inc.php';
+?>

@@ -1,19 +1,10 @@
 <?php
 declare (strict_types = 1);
 include 'includes/autoloader.inc.php';
+include 'includes/header.inc.php';
 ?>
 
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <title></title>
-</head>
-<body>
+
 
 <h1>
     C      A    L     C    U   L  A TOR
@@ -33,7 +24,7 @@ include 'includes/autoloader.inc.php';
 
 
 <?php
+include 'includes/footer.inc.php';
 ?>
 
-</body>
-</html>
+
